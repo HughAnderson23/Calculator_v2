@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+enum class Operation {
+    Add = 1,
+    Subtract,
+    Multiply,
+    Divide
+};
+
 void displayMenu() {
     cout << "Simple Calculator" << endl;
     cout << "-----------------" << endl;
